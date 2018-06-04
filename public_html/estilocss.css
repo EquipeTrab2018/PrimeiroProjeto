@@ -1,0 +1,17 @@
+.borda{
+    width:1367px;
+    height:50px;
+    background-color:#00BFFF;
+    box-shadow: 2px 2px 2px #888888;
+    border-radius: 5px;
+   
+}
+.arrumaTexto{   
+    padding-top: 15px;
+    text-align: center;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    
+
+}

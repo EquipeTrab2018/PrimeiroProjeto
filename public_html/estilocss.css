@@ -25,3 +25,21 @@
     box-sizing: border-box;
     padding-right: 70px;
 }
+.arrumarInicio{
+    padding-top: 20px;
+    padding-left: 430px;
+}
+.arrumaEmail{
+    width: 54%; 
+    margin-left: 0px;
+}
+.select{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-right: 70px;
+}

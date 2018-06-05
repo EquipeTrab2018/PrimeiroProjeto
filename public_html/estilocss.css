@@ -1,10 +1,11 @@
 .borda{
-    width:1367px;
+    width:1366px;
     height:50px;
     background-color:#00BFFF;
     box-shadow: 2px 2px 2px #888888;
-    border-radius: 5px;
-   
+
+
+
 }
 .arrumaTexto{   
     padding-top: 15px;
@@ -12,6 +13,15 @@
     font-family: arial;
     font-size: 20px;
     color: white;
-    
 
+}
+.arrumarInput{
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-right: 70px;
 }

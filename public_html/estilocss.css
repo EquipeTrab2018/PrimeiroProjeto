@@ -21,6 +21,7 @@
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
+    /*copia não filho da puta*/
     border-radius: 4px;
     box-sizing: border-box;
     padding-right: 70px;
@@ -51,6 +52,7 @@
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
+      /*feito pelo preto (Luan Magalhães)*/
     box-sizing: border-box;
     color: gray;
 }
@@ -84,10 +86,11 @@
 }
 .password{
     width: 25%;
+    /*copia não filho da puta*/
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; 
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -107,10 +110,17 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     margin: 4px 2px;
     cursor: pointer;
+    margin-left: 190px;
+    
 }
 .button1 {
-    padding: 10px 24px;
+    padding: 8px 40px;
+}
+hr{
+    color: gray;
+    width: 510px;
+    margin-left: 0px;
 }

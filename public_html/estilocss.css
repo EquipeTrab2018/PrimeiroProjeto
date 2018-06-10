@@ -3,9 +3,6 @@
     height:50px;
     background-color:#00BFFF;
     box-shadow: 2px 2px 2px #888888;
-
-
-
 }
 .arrumaTexto{   
     padding-top: 15px;
@@ -17,14 +14,15 @@
 }
 .arrumarInput{
     width: 25%;
-    padding: 12px 20px;
+    padding: 16px 15px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     /*copia não filho da puta*/
     border-radius: 4px;
     box-sizing: border-box;
-    padding-right: 70px;
+    padding-right: 65px;
+    height: 40px;
 }
 .arrumarInicio{
     padding-top: 20px;
@@ -44,7 +42,6 @@
     box-sizing: border-box;
     color: gray;
 }
-
 .selectCountry{
     width: 25%;
     padding: 12px 20px;
@@ -52,7 +49,7 @@
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-      /*feito pelo preto (Luan Magalhães)*/
+    /*feito por (Luan Magalhães, Pedro Bogolomov, João Pedro Lima, Hassan Fidelis, Lucas Yanaga, Fellipe Oliveira, Renan Nunes)*/
     box-sizing: border-box;
     color: gray;
 }
@@ -74,7 +71,6 @@
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 .officeAdress{
     width: 25%;
     padding: 12px 20px;
@@ -114,7 +110,6 @@
     margin: 4px 2px;
     cursor: pointer;
     margin-left: 190px;
-    
 }
 .button1 {
     padding: 8px 40px;
@@ -123,4 +118,53 @@ hr{
     color: gray;
     width: 510px;
     margin-left: 0px;
+}
+.inputWithIcon{
+    position: relative;
+}
+.inputWithIcon i{
+    position:absolute;
+    left:0;
+    top:2px;
+    margin:20px 200px;
+    color:#aaa;
+}
+.iDireita{
+    margin-left: -35px;
+    padding-top: 20px;
+    position: relative;
+    color:#aaa;
+    top:2px;
+}
+.inputWithIconEmail input[type=text]{
+    padding-top: 20px;
+}
+.inputWithIconEmail{
+    position: relative;
+}
+.inputWithIconEmail i{
+    position:absolute;
+    left:0;
+    top:2px;
+    padding:20px 472px;
+    color:#aaa;
+}
+.iDireitaCasa{
+    margin-left: -35px;
+    padding-top: 10px;
+    position: relative;
+    color:#aaa;
+    top:-39px;
+}
+.arrumarInputPassword{
+    width: 25%;
+    padding: 16px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    /*copia não filho da puta*/
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding-right: 65px;
+    height: 40px;
 }

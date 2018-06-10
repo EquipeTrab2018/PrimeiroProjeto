@@ -4,7 +4,7 @@
     background-color:#00BFFF;
     box-shadow: 2px 2px 2px #888888;
 }
-.arrumaTexto{   
+.arrumaTexto{
     padding-top: 15px;
     text-align: center;
     font-family: arial;
@@ -18,7 +18,6 @@
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    /*copia não filho da puta*/
     border-radius: 4px;
     box-sizing: border-box;
     padding-right: 65px;
@@ -29,7 +28,7 @@
     padding-left: 430px;
 }
 .arrumaEmail{
-    width: 54%; 
+    width: 54%;
     margin-left: 0px;
 }
 .selectCountry{
@@ -49,7 +48,15 @@
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
-    /*feito por (Luan Magalhães, Pedro Bogolomov, João Pedro Lima, Hassan Fidelis, Lucas Yanaga, Fellipe Oliveira, Renan Nunes)*/
+    /* FEITO POR:
+            Luan Magalhães
+            Pedro Bogomolof
+            João Pedro Lima
+            Hassan Fidelis
+            Lucas Yanaga
+            Fellipe Oliveira
+            Renan Nunes
+      */
     box-sizing: border-box;
     color: gray;
 }
@@ -82,11 +89,10 @@
 }
 .password{
     width: 25%;
-    /*copia não filho da puta*/
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc; 
+    border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -146,7 +152,7 @@ hr{
     position:absolute;
     left:0;
     top:2px;
-    padding:20px 472px;
+    margin:20px 472px;
     color:#aaa;
 }
 .iDireitaCasa{
@@ -162,7 +168,6 @@ hr{
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    /*copia não filho da puta*/
     border-radius: 4px;
     box-sizing: border-box;
     padding-right: 65px;

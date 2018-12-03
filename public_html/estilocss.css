@@ -1,174 +1,67 @@
-.borda{
-    width:1366px;
-    height:50px;
-    background-color:#00BFFF;
-    box-shadow: 2px 2px 2px #888888;
+body
+{   margin: 0;
+    padding: 0;
 }
-.arrumaTexto{
-    padding-top: 15px;
+
+textarea, input, select
+{
+    width: 100%;
+    padding: 16px 15px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input, select 
+{
+    height: 40px;
+}
+
+select 
+{
+    padding: 0 16px 0 15px;
+}
+
+i
+{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    display: inline;
+    color: gray;
+}
+
+.row 
+{
+    display: flex;
+}
+
+.container 
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header 
+{
+    height: 50px;
+    background-color: #00BFFF;
+    box-shadow: 2px 2px 2px #888888;
     text-align: center;
+    padding-top: 15px;
     font-family: arial;
     font-size: 20px;
     color: white;
+    box-sizing: border-box;
+}
 
-}
-.arrumarInput{
-    width: 25%;
-    padding: 16px 15px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    padding-right: 65px;
-    height: 40px;
-}
-.arrumarInicio{
-    padding-top: 20px;
-    padding-left: 430px;
-}
-.arrumaEmail{
-    width: 54%;
-    margin-left: 0px;
-}
-.selectCountry{
-    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    color: gray;
-}
-.selectCountry{
-    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    /* FEITO POR:
-            Luan Magalhães
-            Pedro Bogomolof
-            João Pedro Lima
-            Hassan Fidelis
-            Lucas Yanaga
-            Fellipe Oliveira
-      */
-    box-sizing: border-box;
-    color: gray;
-}
-.companyName{
-    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.textAreaHomeAdress{
-    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.officeAdress{
-    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.password{
-    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.confirmPassword{
-    width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-.button {
-    background-color: #00BFFF; /* Green */
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 13px;
-    margin: 4px 2px;
-    cursor: pointer;
-    margin-left: 190px;
-}
-.button1 {
-    padding: 8px 40px;
-}
-hr{
-    color: gray;
-    width: 510px;
-    margin-left: 0px;
-}
-.inputWithIcon{
+.input-container 
+{
     position: relative;
-}
-.inputWithIcon i{
-    position:absolute;
-    left:0;
-    top:2px;
-    margin:20px 200px;
-    color:#aaa;
-}
-.iDireita{
-    margin-left: -35px;
-    padding-top: 20px;
-    position: relative;
-    color:#aaa;
-    top:2px;
-}
-.inputWithIconEmail input[type=text]{
-    padding-top: 20px;
-}
-.inputWithIconEmail{
-    position: relative;
-}
-.inputWithIconEmail i{
-    position:absolute;
-    left:0;
-    top:2px;
-    margin:20px 472px;
-    color:#aaa;
-}
-.iDireitaCasa{
-    margin-left: -35px;
-    padding-top: 10px;
-    position: relative;
-    color:#aaa;
-    top:-39px;
-}
-.arrumarInputPassword{
-    width: 25%;
-    padding: 16px 15px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 0;
+    margin: 0 2px 0 2px;
     box-sizing: border-box;
-    padding-right: 65px;
-    height: 40px;
 }
